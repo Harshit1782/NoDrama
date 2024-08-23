@@ -158,6 +158,9 @@
             <form action="https://formspree.io/f/xvgpwwlj"
             method="POST">
                 <label>
+                        <input type="text" value="hehehehe">hehehehehe
+                </label>
+                <label>
                     <input type="radio" name="rating" value="1"> Acha tha
                 </label><br><hr>
                 <label>
@@ -173,22 +176,7 @@
         </div>
     </div>
     <script>
-        document.getElementById('feedback-form').addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent the default form submission
-    
-            const feedback = document.querySelector('input[name="rating"]:checked');
-            if (feedback) {
-                const feedbackValue = feedback.value;
-    
-                // Display an alert box with a message and a link
-                alert('Tum batayi nahi ki tum library cycle se jaati ho 🤭😱: ' + '\n\n' + 
-                      ' https://m.youtube.com/shorts/_xgxf4Mlc3c');
-    
-                // Alternatively, you can show the link in a custom dialog using HTML/CSS if you prefer
-            } else {
-                alert('Please select a rating before submitting.');
-            }
-        });
+       
     </script>
 </body>
 </html>
